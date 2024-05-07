@@ -11,4 +11,8 @@ export class ShoppingListComponent {
     new Ingredient('Mangoes', 50),
     new Ingredient('Oranges', 60)
   ];
+
+  ingredientData(ingInfo: Ingredient) {
+    this.ingredients.push(ingInfo)
+  }
 }
