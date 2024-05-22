@@ -8,7 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   optionSelected: string = 'recipe';
   
-  navigateOption(feature: string) {
-    this.optionSelected = feature;
-  }
 }
